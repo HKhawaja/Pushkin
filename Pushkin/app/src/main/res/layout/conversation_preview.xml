@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pic" />
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/txt"/>-->
+
+    <!--android:layout_margin="15dp"-->
+    <!--android:layout_marginTop="5dp"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lastActive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="20dp"
+        android:ellipsize="end"
+        android:maxLines = "1"
+        android:id="@+id/tpoints"
+        android:layout_marginTop="28dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="8dp"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:id="@+id/message"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
